@@ -71,14 +71,6 @@ function display() {
   }
 }
 
-function visitWebsite(url) {
-  window.open(url, '_blank'); // Open URL in a new tab
-  // <div class="col-3 mt-3">
-    //       <button class="btn btn-success" id="visitBtn" type="button" onclick="visitWebsite(${bookmark.url})"><i class="fa-solid fa-eye text me-3"></i>
-    //       Visit</button>
-    //     </div>
-}
-
 function deleteFunc(index)
 {
     console.log(index);
