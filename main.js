@@ -55,7 +55,7 @@ function display() {
         </div>
         <div class="col-3 mt-3">
           <button class="btn btn-success" id="visitBtn" type="button"><i class="fa-solid fa-eye text me-3"></i><a class="text-decoration-none text-white"
-            href="${bookmark.url}">Visit</a></button>
+            href="${bookmark.url}" target="_blank">Visit</a></button>
         </div>
         
         <div class="col-3 mt-3">
