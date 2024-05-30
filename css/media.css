@@ -1,0 +1,12 @@
+@media screen and (max-width:1024px) {
+    .title .layer {
+    width: 220px;
+    height: 15px;
+    }
+
+    .title:hover .layer {
+        height: 30px;
+    }
+
+
+}

@@ -1,0 +1,40 @@
+body{
+    background-image: url(../imges/book.jpg);
+    background-position: fixed;
+    background-size:auto;
+    z-index: -2;
+}
+
+.title h1 {
+    font-family: "Pacifico", cursive;
+}
+
+.title {
+    position: relative;
+    width: fit-content;
+}
+
+.title .layer {
+    position: absolute;
+    background-color: rgba(0, 249, 71, 0.615);
+    width: 290px;
+    height: 20px;
+    bottom: 5px;
+    left: 0px;
+    z-index: -1;
+    transition: all 0.3s;
+}
+
+.title:hover .layer {
+    height: 40px;
+}
+
+.topp h5{
+    background: linear-gradient(to right, #21f35d, #ff6b08,#cf23cf, #448bee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+ form .form-control:active{
+    border-color:  rgba(137, 43, 226, 0.615) ;
+    
+ }
